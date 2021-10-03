@@ -1,0 +1,23 @@
+.page-80 {
+  height: 80vh;
+}
+
+.red {
+  color: red;
+}
+
+.light {
+  font-weight: 400;
+}
+.bold {
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 2.5em;
+}
+
+.hero-title {
+  font-weight: 700;
+}
+

@@ -1,0 +1,23 @@
+{% load static %}
+
+<style>
+
+  #navbar {
+  font-family: 'Brush Script MT', cursive;
+  }
+  </style>
+
+<nav id="navbar" class="navbar navbar-expand-md navbar-light">
+  <a href="{% url 'index' %}" class="navbar-brand">Min Portfolio</a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+    aria-controls="#toggleMobileMenu" aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="has-text-weight-bold collapse navbar-collapse" id="toggleMobileMenu ">
+    <ul class="navbar-nav ms-auto text-center">
+      <li><a class="nav-link" href="{% url 'index' %}">Home</a></li>
+      <li><a class="nav-link" href="{% url 'resume' %}">Resume</a></li>
+    </ul>
+  </div>
+</nav>
